@@ -23,7 +23,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        android:src="@mipmap/ic_launcher"
         />
 
 
@@ -36,24 +35,21 @@
         android:layout_height="30dp"
         android:src="@drawable/delete_button_circle"
         app:layout_constraintBottom_toTopOf="@id/source_custom_image_control_image_view"
-        app:layout_constraintRight_toLeftOf="@id/source_custom_image_control_image_view"
-        android:contentDescription="@string/image_static" />
+        app:layout_constraintRight_toLeftOf="@id/source_custom_image_control_image_view" />
     <ImageView
         android:id="@+id/source_custom_image_control_resize"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:src="@drawable/resize_button_circle"
         app:layout_constraintBottom_toTopOf="@id/source_custom_image_control_image_view"
-        app:layout_constraintLeft_toRightOf="@id/source_custom_image_control_image_view"
-        android:contentDescription="@string/image_static" />
+        app:layout_constraintLeft_toRightOf="@id/source_custom_image_control_image_view" />
     <ImageView
         android:id="@+id/source_custom_image_control_rotate"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:src="@drawable/rotate_button_circle"
         app:layout_constraintTop_toBottomOf="@id/source_custom_image_control_image_view"
-        app:layout_constraintLeft_toRightOf="@id/source_custom_image_control_image_view"
-        android:contentDescription="@string/image_static" />
+        app:layout_constraintLeft_toRightOf="@id/source_custom_image_control_image_view" />
 
 
 
