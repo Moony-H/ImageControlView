@@ -45,7 +45,7 @@ allprojects {
 
 ```
 dependencies {
-	implementation 'com.github.Moony-H:ImageControlView:Tag'
+	implementation 'com.github.Moony-H:ImageControlView:1.1'
 }
 ```
 
