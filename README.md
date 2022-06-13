@@ -16,6 +16,20 @@
 
 <br/>
 
+## Wiki
+
+<br/>
+
+자세한 구현 방법은 Wiki에 정리해 놓았습니다.
+
+<br/>
+
+[ImageControlView Wiki](https://github.com/Moony-H/ImageControlView/wiki)
+
+<br/>
+
+<br/>
+
 ## 사용 방법
 
 <br/>
