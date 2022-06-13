@@ -47,4 +47,43 @@ ImageControlLayout은 ConstraintLayout을 상속하여 만들었습니다.
 
 ConstraintLayout처럼 사용해도 무방 합니다.
 
+```xml
+<?xml version="1.0" encoding="utf-8"?>
 
+<com.moony.routeen.ui.view.other.ImageControlLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <com.moony.routeen.ui.view.other.ImageControlView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:src="@color/yellow"
+        />
+
+    <Button
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+
+
+
+
+</com.moony.routeen.ui.view.other.ImageControlLayout>
+```
