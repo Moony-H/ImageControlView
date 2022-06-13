@@ -14,6 +14,50 @@
 
 <br/>
 
+<br/>
+
+## 사용 방법
+
+<br/>
+
+이 Repository는 Jitpack에 배포되었습니다. 링크: [https://jitpack.io/#Moony-H/ImageControlView](https://jitpack.io/#Moony-H/ImageControlView)
+
+따라서 아래와 같은 방법으로 사용 가능합니다.
+
+root build.gradle에 아래와 같이 추가 합니다.
+
+<br/>
+
+```gradle
+allprojects {
+    repositories {
+	    ...
+		maven { url 'https://jitpack.io' }
+	}
+}
+```
+
+<br/>
+
+그 다음 의존성을 추가합니다
+
+<br/>
+
+```
+dependencies {
+	implementation 'com.github.Moony-H:ImageControlView:Tag'
+}
+```
+
+<br/>
+
+이로서 Android Studio에 설치하여 ImageControlView를 사용하실 수 있습니다.
+
+<br/>
+
+<br/>
+
+
 ## 사용시 주의사항
 
 ### 1. ImageControlView의 Parent는 반드시 ImageControlLayout 이어야 합니다.
