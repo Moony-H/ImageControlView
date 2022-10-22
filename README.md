@@ -59,6 +59,7 @@ link: [https://jitpack.io/#Moony-H/ImageControlView](https://jitpack.io/#Moony-H
 <br/>
 
 Setting up ImageControlView requires to add this Gradle configuration:
+
 build.gradle에 아래와 같이 추가 합니다.
 
 <br/>
